@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  height: 100vh;
+}
+.heading {
+  color: #f0bb03;
+  margin-bottom: 16px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
+.para-text {
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.btn-styling {
+  text-align: center;
+  border-radius: 12px;
+  border: none;
+  font-size: 15px;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  outline: none;
+  cursor: pointer;
+}
+@media all and (min-width: 768px) {
+  .heading {
+    font-size: 100px;
+  }
+  .para-text {
+    font-size: 35px;
+  }
+  .btn-styling {
+    font-size: 18px;
+  }
+}
